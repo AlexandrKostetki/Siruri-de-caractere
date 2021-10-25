@@ -1,0 +1,8 @@
+s=str(input('Sirul='))
+print('a=',s.count("A"))
+print('b=',s.replace('A','*'))
+print('c=',s.replace('B',''))
+print('d=',s.count('MA'))
+print('e=',s.replace('MA','TA'))
+print('f=',s.replace('TO',''))
+print('g=',s[::-1])
